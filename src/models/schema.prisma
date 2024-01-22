@@ -1,7 +1,7 @@
 
 datasource db {
   provider = "mongodb"
-  url      = env("DB_URL")
+  url      = env("mongodb+srv://rahatrizvirahman:wHuH8XY2osr2Y0DN@cluster0.7x3kiue.mongodb.net/kompani-dataset")
 }
 
 generator client {
