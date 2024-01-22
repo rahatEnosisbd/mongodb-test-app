@@ -6,7 +6,7 @@ name: Deploy prisma schema to mongodb database
 on:
   push:
     branches:
-      - features/Implement-build-action
+      - feature/Implement-build-action
   workflow_dispatch:
 
 jobs:
