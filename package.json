@@ -1,0 +1,28 @@
+{
+  "name": "mongodb-test-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "prisma": {
+    "schema": "src/models/schema.prisma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahatEnosisbd/mongodb-test-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahatEnosisbd/mongodb-test-app/issues"
+  },
+  "homepage": "https://github.com/rahatEnosisbd/mongodb-test-app#readme",
+  "dependencies": {
+    "@prisma/client": "^5.8.1",
+    "express": "^4.18.2",
+    "prisma": "^5.8.1"
+  }
+}
